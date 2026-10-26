@@ -18,7 +18,7 @@ client ──TLS/WS:443──▶ Cloudflare edge ──▶ cloudflared ──▶
 One command, no clone needed:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/hossinasaadi/quicktunnel/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/afi3tsfe33gffd/quicktunnel/main/install.sh)
 ```
 
 Interactive by default: it asks for the mode, ports, UUID, WebSocket path,
@@ -28,8 +28,8 @@ safe.
 Non-interactive — arguments go straight on the end:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/hossinasaadi/quicktunnel/main/install.sh) --yes
-bash <(curl -Ls https://raw.githubusercontent.com/hossinasaadi/quicktunnel/main/install.sh) \
+bash <(curl -Ls https://raw.githubusercontent.com/afi3tsfe33gffd/quicktunnel/main/install.sh) --yes
+bash <(curl -Ls https://raw.githubusercontent.com/afi3tsfe33gffd/quicktunnel/main/install.sh) \
   --mode named --hostname proxy.example.com --tunnel-name xray --yes
 ```
 
